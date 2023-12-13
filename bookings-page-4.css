@@ -1,0 +1,133 @@
+.add-address-page {
+    width: 100%;
+}
+
+.add-address-page {
+    /* width: 85%; */
+    margin: 0 auto;
+    font-family: 'poppins';
+}
+
+.address-sec-title {
+    border-bottom: 1px solid rgb(207, 207, 207);
+    margin: 0 auto;
+    width: 100%;
+    font-size: 'poppins';
+    font-weight: 500;
+    font-size: 19px;
+    text-align: center;
+    color: #3d3d3d;
+    padding: 15px 0;
+}
+
+.page-title {
+    width: 100%;
+    text-align: center;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 20px 0 5px 0;
+}
+
+.date-of-repair,
+.time-of-repair {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.time-of-repair {
+    margin-top: 25px;
+}
+
+.dates-section,
+.times-section {
+    width: 40%;
+    margin: 0 auto;
+
+}
+
+.date {
+    border: 2px solid #868686;
+    background-color: transparent;
+    border-radius: 14px;
+    width: 100px;
+    outline: none;
+    height: 60px;
+    color: #3e3e3e;
+    font-weight: 400;
+    font-size: 12px;
+
+    &:focus {
+        border: 2px solid #005cba;
+    }
+}
+
+.dates,
+.times {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.date-num {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.time {
+    border: 2px solid #c9c9c9;
+    background-color: transparent;
+    border-radius: 14px;
+    width: 150px;
+    outline: none;
+    height: 60px;
+    color: #3e3e3e;
+    font-weight: 400;
+    font-size: 14px;
+
+    &:focus {
+        border: 2px solid #005cba;
+    }
+}
+
+.section-footer {
+    margin-top: 20px;
+    border-top: 1px solid rgb(202, 202, 202);
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-btn {
+    margin: 0 auto;
+    background-color: #005cba;
+    color: white;
+    border-radius: 15px;
+    width: 30%;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width:1284px) {
+
+    .dates-section,
+    .times-section {
+        width: 60%;
+        margin: 0 auto;
+
+    }
+}
+
+@media screen and (max-width:786px) {
+
+    .dates-section,
+    .times-section {
+        width: 90%;
+        margin: 0 auto;
+
+    }
+}

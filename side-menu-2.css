@@ -1,0 +1,119 @@
+.filters-side-menu {
+    width: 100%;
+    padding: 40px 30px;
+    font-family: 'poppins';
+
+}
+
+.side-menu-title {
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #cccccc;
+}
+
+.sm-search-bar-sec {
+    margin-top: 20px;
+    position: relative;
+}
+
+.sm-search-bar {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid #e3e3e3;
+    padding: 5px 20px;
+    outline: none;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.116);
+}
+
+.sm-search-bar-icon-sec {
+    width: 30px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #005cba;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.selected-filters {
+    display: flex;
+    padding: 20px 0 15px 0;
+    border-bottom: 1px solid #e4e4e4;
+    width: 99%;
+    overflow-x: scroll;
+}
+
+.selected-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9cd1e949;
+    display: flex;
+    gap: 15px;
+    height: 30px;
+    padding: 0 10px;
+    border: 1px solid #005dba41;
+    color: #005cba;
+    border-radius: 15px;
+    font-size: 11px;
+}
+
+.filter-options {
+    margin-top: 20px;
+    height: 50vh;
+    overflow-y: hidden;
+}
+.filter-section{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    border-bottom: 1px solid #e4e4e4;
+    width: 100%;
+}
+.filter {
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    display: flex;
+}
+
+.filter-title {
+    display: flex;
+    justify-content: space-between;
+    width: inherit
+}
+.filter-icon{
+    color: #0069d2;
+}
+.checkbox{
+    margin: 5px 0;
+}
+.check{
+    margin-right: 10px;
+}
+.button-section{
+    position: fixed;
+    bottom: 30px;
+    width: 80%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.cancel-btn-sm,.apply-btn-sm{
+    width: 200px;
+    height: 50px;
+    font-weight: 600;
+}
+@media only screen and (min-width:683px){
+   *{
+    display: none;
+   }
+}

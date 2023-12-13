@@ -1,0 +1,240 @@
+.payment-method-page {
+    /* width: 85%; */
+    margin: 0 auto;
+    font-family: 'poppins';
+}
+
+.payment-sec-title {
+    border-bottom: 1px solid rgb(207, 207, 207);
+    margin: 0 auto;
+    width: 100%;
+    font-size: 'poppins';
+    font-weight: 500;
+    font-size: 19px;
+    text-align: center;
+    color: #3d3d3d;
+    padding: 15px 0;
+}
+
+.section-footer {
+    margin-top: 20px;
+    border-top: 1px solid rgb(202, 202, 202);
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-btn {
+    margin: 0 auto;
+    background-color: #005cba;
+    color: white;
+    border-radius: 15px;
+    width: 30%;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+.price-summary-card {
+    width: 400px;
+    padding: 20px 20px 0 20px ;
+    border: 1px solid rgb(192, 192, 192);
+    font-family: 'roboto';
+    border-radius: 4px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.price-summary-card-header {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.items-price {
+    height: 250px;
+    overflow-y: auto;
+}
+
+.item-price-sec,
+.care-sec {
+    display: flex;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(244, 244, 244);
+}
+
+.item-name,
+.care-name {
+    width: 50%;
+    font-weight: 500;
+    color: #575757;
+    font-size: 15px;
+}
+
+.item-price,
+.care-price {
+    width: 50%;
+    text-align: right;
+    font-size: 15px;
+    color: #575757;
+}
+.total-amount{
+    font-size: 25px!important;
+    border-bottom: none;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.price-cont-btn {
+    width: 100%;
+    background-color: #005cba;
+    outline: none;
+    border: none;
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.payment-selection-page {
+    width: 75%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+
+.pay-sec-1 {
+    width: 40%;
+}
+
+.pay-sec-2 {
+    width: 60%;
+}
+
+.payment-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 15px;
+    font-weight: 500;
+    height: 55px;
+    width: 80%;
+    border: 1px solid #ebebeb;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.pay-later-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    width: fit-content;
+    background-color: #e4f2f9;
+    padding-top: 90px;
+    width: 80%;
+    border-radius: 14px ;
+}
+
+.connector {
+    display: flex;
+    align-items: center;
+}
+.emi-text{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+    margin: 0;
+    outline: none;
+    border: none;
+    position: relative;
+    &:focus{
+        background-color: black;
+        width: 15px;
+        height: 15px;
+    }
+}
+.emi-sec{
+    position: absolute;
+    bottom: 30px;
+    left: -7px;
+    font-size: 13px;
+}
+.line {
+    height: 2px;
+    width: 5vw;
+    background-color: #c4c4c4;
+}
+.amount{
+    font-weight: 500;
+}
+.card-form{
+    width: 80%;
+}
+.num-sec{
+    width: 100%;
+}
+.exp-sec{
+    display: flex;
+    justify-content: space-between;
+}
+.exp-date,.cvv{
+    width: 48%;
+}
+.name-card{
+    width: 100%;
+}
+.card-num{
+    width: 100%;
+}
+.form-pay{
+    background-color: #c4c4c450;
+    border: 1px solid #c4c4c4;
+    height: 45px;
+    padding: 10px 25px;
+    margin: 10px 0;
+    border-radius: 12px;
+    outline: none;
+    &:placeholder-shown{
+        color: #9a9a9a;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:1080px){
+    .payment-selection-page{
+        width: 97%;
+    }
+}
+@media screen and (max-width:786px){
+    .payment-selection-page{
+        width: 95%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+    .pay-sec-1{
+        width: 100%;
+        margin-top: 12px;
+    }
+    .pay-sec-2{
+        width: 100%;
+        margin-top: 12px;
+
+    }
+    .payment-option,.pay-later-sec{
+        width: 100%;
+    }
+    .line{
+        width: 20vw;
+    }
+    .card-form{
+        width: 100%;
+    }
+    .price-summary-card {
+        width: 350px;
+    }
+}

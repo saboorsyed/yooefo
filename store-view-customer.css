@@ -1,0 +1,380 @@
+.product-page-section {
+    width: 100%;
+    margin: 30px 0;
+}
+
+.p-main {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.product-page-info-section {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.product-images-section {
+    display: flex;
+    width: 100%;
+}
+
+.product-other-images {
+    width: 12%;
+    margin-right: 15px;
+}
+
+.product-other-image {
+    width: 100%;
+    margin: 5px 0;
+}
+
+.product-main-image-section {
+    width: 52%;
+}
+
+.product-main-image {
+    width: 100%;
+}
+
+.product-page-booking-section {
+    width: 30%;
+}
+
+.booking-card {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.pricing {
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+}
+
+.price {
+    width: 50%;
+    font-family: 'roboto';
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.ratings {
+    width: 30%;
+}
+
+.booking-input-section {
+    border: 1px solid #D9D9D9;
+    border-radius: 7px;
+}
+
+.booking-section-1 {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #D9D9D9;
+
+}
+
+.date-section {
+    width: 50%;
+    border-right: 1px solid #D9D9D9;
+    padding: 5px 10px;
+
+
+}
+
+.time-section {
+    width: 50%;
+    padding: 5px 10px;
+
+}
+
+.service-section {
+    padding: 5px 10px;
+    border-bottom: 1PX solid #D9D9D9;
+
+}
+
+.services-select {
+    outline: none;
+    border: none;
+    padding: 0;
+    width: 100%;
+}
+
+.booking-label {
+    font-family: 'poppins';
+    color: #383838;
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.booking-input {
+    border: none;
+    outline: none;
+    width: 90%;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.card-booking {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border-color: #005cba;
+    background-color: #005cba;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    height: 55px;
+    font-family: 'poppins';
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.offer-section {
+    width: 100%;
+    display: flex;
+    border: 2px solid #005dba6d;
+    padding: 10px 0;
+    border-radius: 14px;
+}
+
+.offer-text {
+    width: 70%;
+}
+
+.offer {
+    font-size: 13px;
+    font-family: 'roboto';
+    color: #464646;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.offer-icon {
+    width: 30%;
+}
+
+.offer-icon-image {
+    width: 100%;
+    padding: 10px;
+}
+
+.ribbon-pop {
+    background: #F4C042;
+    display: inline-block;
+    padding: 8px 60px 8px 40px;
+    color: #005cba;
+    font-weight: 500;
+    position: relative;
+}
+
+.ribbon-pop:after {
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    position: absolute;
+    right: 0;
+    border-right: 20px solid #fff;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+.booking-company-info {
+    margin: 15px;
+    font-family: 'poppins';
+}
+
+.company-name {
+    color: #464646;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.company-description {
+    color: #6b6b6b;
+    font-size: 13px;
+}
+
+.bookings-last-section {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    color: #005cba;
+}
+
+.book-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.book-icon {
+    font-size: 19px;
+}
+
+.icon-text {
+    color: #0f0f0f;
+}
+
+.product-details-section {
+    font-family: 'poppins';
+    margin-top: 30px;
+}
+
+.store-name {
+    font-size: 20px;
+    color: #303030;
+    font-weight: 500;
+}
+
+.distance-details {
+    margin-top: 20px;
+}
+
+.info-title {
+    margin-bottom: 2px;
+    font-size: 14px;
+    color: #323232;
+    font-weight: 500;
+}
+
+.info-detail {
+    font-size: 13px;
+    color: #474747;
+    font-weight: 400;
+}
+
+.service-details {
+    margin-top: 20px;
+
+}
+
+.service {
+    display: flex;
+    gap: 15px;
+}
+
+.services-provided {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 70%;
+    padding: 10px;
+}
+
+.service-icon {
+    color: #005cba;
+    font-size: 14px;
+}
+
+.service-info {
+    color: #888888;
+    font-size: 13px;
+    width: 60%;
+    font-weight: 500;
+}
+
+.about-info {
+    margin-top: 20px;
+}
+
+.reviews-section {
+    margin-top: 40px;
+}
+
+.review-section-title {
+    font-size: 21px;
+    color: #474747;
+    font-weight: 500;
+
+}
+
+.review {
+    width: 70%;
+    border-bottom: 2px solid #E5E5E5;
+    margin: 10px 0;
+}
+
+.review-header {
+    display: flex;
+    width: 100%;
+}
+
+.review-ratings {
+    width: 50%;
+}
+
+.review-date {
+    width: 50%;
+    text-align: right;
+    color: #949494;
+}
+
+.review-tagline {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+.review-text {
+    font-size: 14px;
+    color: #6b6b6b;
+}
+
+.review-by {
+    font-size: 12px;
+    color: #303030;
+    font-weight: 600;
+}
+
+.all-reviews-btn {
+    color: #005cba;
+    text-decoration: underline;
+    font-size: 13px;
+}
+.product-info-last-section{
+    width: 83%;
+    margin: 0 auto;
+}
+.last-sec-title{
+    font-size: 19px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width:1328px) {
+    .product-page-info-section {
+        width: 60%;
+    }
+
+    .product-page-booking-section {
+        width: 40%;
+    }
+
+}
+
+
+@media only screen and (max-width:830px) {
+    .p-main{
+        flex-direction: column;
+    }
+    .product-page-info-section{
+        width: 100%;
+    }
+    .product-page-booking-section{
+        margin-top: 30px;
+        width: 100%;
+    }
+   
+}

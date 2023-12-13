@@ -1,0 +1,113 @@
+.add-address-page{
+    width: 100%;
+}
+.add-address-page{
+    width: 85%;
+    margin: 0 auto;
+}
+.address-sec-title{
+    margin: 0 auto;
+    width: 100%;
+    font-size: 'poppins';
+    font-weight: 500;
+    font-size: 19px;
+    text-align: center;
+    color: #3d3d3d;
+    padding: 15px 0;
+}
+.add-address-section{
+    display: flex;  
+    position: relative;
+}
+.add-address-form-section{
+    margin-top: 20px;
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.maps-section{
+    width: 55%;
+}
+.add-address-form-section{
+    width: 30%;
+    margin: 20px auto;
+}
+.map{
+    width: 100%;
+    height: 70vh;
+}
+.add-address-input{
+    background-color: #c4c4c42b;
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    width: 100%;
+    stroke: #c4c4c4;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.save-as-sec{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.save-as-btn{
+    font-size: 13px;
+    background-color: #e3e3e389;
+    border: none;
+    outline: none;
+    border-radius:14px;
+    font-weight: 500;
+    width: 70px;
+    height: 30px;
+    &:focus{
+        background-color: #9cd1e96c;
+        color: #005cba;
+    }
+}
+.section-footer{
+    /* position: absolute; */
+    bottom: 0;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+.footer-btn{
+    margin: 0 auto;
+    background-color: #005cba;
+    color: white;
+    border-radius: 15px;
+    width: 80%;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+@media screen and (max-width:1024px){
+    /* .map{
+         height: 60vh;
+    } */
+    .section-footer{
+        width: 100%;
+    }
+}
+@media screen and (max-width:800px){
+    .add-address-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .add-address-form-section{
+        width: 100%;
+    }
+    .maps-section{
+        width: 100%;
+    }
+    .map{
+        height: 40vh;
+
+    }
+    .section-footer{
+        width: 100%;
+    }
+}

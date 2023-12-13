@@ -1,0 +1,325 @@
+.booking-section {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 20px auto;
+}
+
+.booking-section-1 {
+    width: 65%;
+}
+
+.booking-section-2 {
+    width: 30%;
+}
+
+.service-selection-card,
+.price-summary-card,
+.offers-card,
+.order-details-card,
+.company-details-section-card,
+.FAQ-section-card {
+    padding: 20px;
+    border: 1px solid rgb(192, 192, 192);
+    font-family: 'roboto';
+    border-radius: 4px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.sec-head {
+    display: flex;
+    gap: 20px;
+}
+
+.mobile-image-section {
+    width: 10%;
+    object-fit: contain;
+}
+
+.mobile-image {
+    width: 100%;
+}
+
+.mobile-name {
+    margin-bottom: 2px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #464646;
+}
+
+.mobile-color {
+    font-size: 13px;
+    font-weight: 500;
+    color: #464646;
+}
+
+.sec-body {
+    margin-top: 20px;
+}
+
+.body-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #464646;
+}
+
+.service-repair-items {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.service-repair-item {
+    /* width: 33%; */
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    gap: 20px;
+}
+
+.service-repair-item-img-sec {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.service-repair-item-img {
+    width: 100%;
+}
+
+.service-repair-title {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: -5px;
+}
+
+.striked-amount {
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.actual-amount {
+    font-size: 12px;
+
+}
+
+.service-add-btn {
+    border: 2px solid #026dd9;
+    background-color: transparent;
+    color: #005cba;
+    height: 35px;
+    border-radius: 10px;
+    width: 85px;
+    font-weight: 500;
+}
+
+.sec-end {
+    padding: 10px;
+    background-color: #a6cee56d;
+    margin: 40px 0 0 0;
+}
+
+.sec-end-text {
+    color: #005cba;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.price-summary-card-header,
+.order-detail-card-header {
+    font-size: 14px;
+    font-weight: 500;
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+
+.items-price {
+    height: 250px;
+    overflow-y: auto;
+}
+
+.item-price-sec,
+.care-sec {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+
+.item-name,
+.care-name {
+    width: 50%;
+    font-weight: 500;
+}
+
+.item-price {
+    width: 50%;
+    text-align: right;
+}
+
+.care-price {
+    width: 50%;
+    color: #005cba;
+    text-align: right;
+    font-weight: 500;
+}
+
+.agree-sec {
+    font-size: 14px;
+    /* display: flex; */
+    /* align-items:center; */
+}
+
+.agree-sec-label {
+    margin-top: 10px;
+}
+
+.price-cont-btn {
+    width: 100%;
+    background-color: #005cba;
+    outline: none;
+    border: none;
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.offers-card,
+.order-details-card {
+    margin-top: 20px;
+}
+
+.offer-section-title {
+    font-weight: 500;
+    border-bottom: 1px solid rgb(193, 193, 193);
+    font-size: 14px;
+}
+
+.offers-section {
+    height: 15 0px;
+    overflow-y: auto;
+}
+
+.offer {
+    display: flex;
+    gap: 5px;
+}
+
+.order-detail-body {
+    font-weight: 500;
+}
+
+.order-breif {
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+}
+
+.left-detail {
+    width: 50%;
+}
+
+.right-detail {
+    width: 50%;
+}
+
+.date-breif {
+    border-top: 1px dashed #D3D3D3;
+}
+
+.company-details-section-card {
+    margin-top: 30px;
+    font-family: poppins;
+    padding: 30px;
+}
+
+.company-name {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+.company-details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.company-detail {
+    width: 26%;
+    font-size: 13px;
+    color: #858585;
+}
+
+.FAQ-section-card {
+    margin-top: 30px;
+    font-family: 'roboto';
+    padding: 30px;
+}
+
+.FAQ-title {
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.FAQs {
+    width: 90%;
+}
+
+.FAQ {
+    width: 90%;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 10px 0;
+}
+
+.FAQ-question {
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    color: #555555;
+    font-family: 'poppins';
+}
+
+.FAQ-ans {
+    font-family: 'raleway';
+    color: #696969;
+    font-size: 13px;
+}
+
+.policies {
+    margin-top: 60px;
+}
+
+.policies-title {
+    font-weight: 500;
+}
+
+.policy {
+    font-family: 'raleway';
+    color: #696969;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+@media screen and (max-width:992px){
+    .booking-section{
+        flex-wrap: wrap;
+    }
+    .booking-section-1 {
+        width: 100%;
+    }
+    .booking-section-2{
+        width: 100%;
+    }
+}
+@media screen and (max-width:707px){
+.FAQ{
+    width: 100%;
+}
+.company-details{
+    flex-wrap: wrap;
+}
+.company-detail{
+    width: 100%;
+}
+}

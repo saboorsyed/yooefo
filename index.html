@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;500;600;700;900&family=Raleway:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="nav-section">
+            <div class="nav">
+                <div class="icon">
+                    <img class="icon-image" src="\images\logo.png">
+                </div>
+                <div class="nav-main">
+                    <div class="search-bar">
+                        <button class="location-button">Location <i class="bi bi-chevron-down"></i></button>
+                        <input class="search-field" placeholder="Type your phone brand, model and repair">
+                        <button class="search-button"><i class="bi bi-search"></i></button>
+                    </div>
+                    <div class="action-buttons">
+                        <a class="action-button" href="#">Register as Partner</a>
+                        <a class="action-button" href="#">Log in/sign Up</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-nav">
+                <div class="sidemenu-button">
+                    <a class="side-menu-button" href="side-menu-2.html"><i
+                            class=" side-menu-button bi bi-filter-left"></i></a>
+                </div>
+                <div class="icon">
+                    <img class="icon-image" src="\images\logo.png">
+                </div>
+                <a class="search-button-mobile"><i class=" search-button-mobile bi bi-search"></i></a>
+
+            </div>
+        </div>
+        <div class="section-2">
+            <div class="carousel-section">
+                <p class="section2-heading">Sponsored Partners</p>
+
+                <div class="carousel-items">
+                    <div class="carousel-itemm">
+                        <div class="carousel-item-image">
+                            <img class="carousel-item-img" src="\images\sponsored-1.png">
+                        </div>
+                        <div class="carousel-item-text">
+                            <p>Brand 1</p>
+                        </div>
+                    </div>
+                    <div class="carousel-itemm">
+                        <div class="carousel-item-image">
+                            <img class="carousel-item-img" src="\images\sponsored-2.png">
+                        </div>
+                        <div class="carousel-item-text">
+                            <p>Brand 2</p>
+                        </div>
+                    </div>
+                    <div class="carousel-itemm">
+                        <div class="carousel-item-image">
+                            <img class="carousel-item-img" src="\images\sponsored-3.png">
+                        </div>
+                        <div class="carousel-item-text">
+                            <p>Brand 3</p>
+                        </div>
+                    </div>
+                    <div class="carousel-itemm">
+                        <div class="carousel-item-image">
+                            <img class="carousel-item-img" src="\images\sponsored-4.png">
+                        </div>
+                        <div class="carousel-item-text">
+                            <p>Brand 4</p>
+                        </div>
+                    </div>
+                    <div class="carousel-itemm">
+                        <div class="carousel-item-image">
+                            <img class="carousel-item-img" src="\images\sponsored-1.png">
+                        </div>
+                        <div class="carousel-item-text">
+                            <p>Brand 5</p>
+                        </div>
+                    </div>
+                    <div class="carousel-itemm">
+                        <div class="carousel-item-image">
+                            <img class="carousel-item-img" src="\images\sponsored-1.png">
+                        </div>
+                        <div class="carousel-item-text">
+                            <p>brand 5</p>
+                        </div>
+                    </div>
+
+                    <button class="carousel-next-button"><i class="bi bi-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-3">
+            <div class="filter-section">
+                <div class="selected-filters">
+                    <button class="filter-btn">FILTER</button>
+                    <button class="selected-filter-btn">Apple <i class="bi bi-x-lg"></i></button>
+                </div>
+                <button class="sort-btn">SORT BY <i class="bi bi-chevron-down"></i></button>
+            </div>
+        </div>
+
+        <div class="section-4">
+            <div class="section-4-main">
+                <p class="section-4-title">Recommended for you</p>
+                <div class="section-4-items">
+                    <div class="section-4-item" data-bs-target="#store-detail-popup" data-bs-toggle="modal">
+                        <a class="bookmark-icon"><i class="bi bi-bookmark"></i></a>
+                        <!-- <a class="bookmarked-icon"><i class="bi bi-bookmark-fill"></i></a> -->
+                        <div class="item-image-section"  >
+                            <img class="item-image" src="\images\sponsored-4.png">
+                        </div>
+                        <div class="item-info">
+                            <div class="item-name">
+                                <span>Store Name</span>
+                            </div>
+                            <div class="item-price">
+                                <span>$ 1,200</span>
+                            </div>
+                        </div>
+                        <div class="ratings-section">
+                            <div class="ratings">
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-half"></i>
+                            </div>
+                            <div class="ratings-count">
+                                (4.8)
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="desc">
+                                <span class="desc-text">Distance<br>
+                                    Information about the store.</span>
+                            </div>
+                            <button class="book-btn">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="section-4-item" data-bs-target="#store-detail-popup" data-bs-toggle="modal">
+                        <a class="bookmark-icon"><i class="bi bi-bookmark"></i></a>
+                        <!-- <a class="bookmarked-icon"><i class="bi bi-bookmark-fill"></i></a> -->
+                        <div class="item-image-section"  >
+                            <img class="item-image" src="\images\sponsored-4.png">
+                        </div>
+                        <div class="item-info">
+                            <div class="item-name">
+                                <span>Store Name</span>
+                            </div>
+                            <div class="item-price">
+                                <span>$ 1,200</span>
+                            </div>
+                        </div>
+                        <div class="ratings-section">
+                            <div class="ratings">
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-half"></i>
+                            </div>
+                            <div class="ratings-count">
+                                (4.8)
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="desc">
+                                <span class="desc-text">Distance<br>
+                                    Information about the store.</span>
+                            </div>
+                            <button class="book-btn">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="section-4-item" data-bs-target="#store-detail-popup" data-bs-toggle="modal">
+                        <a class="bookmark-icon"><i class="bi bi-bookmark"></i></a>
+                        <!-- <a class="bookmarked-icon"><i class="bi bi-bookmark-fill"></i></a> -->
+                        <div class="item-image-section"  >
+                            <img class="item-image" src="\images\sponsored-1.png">
+                        </div>
+                        <div class="item-info">
+                            <div class="item-name">
+                                <span>Store Name</span>
+                            </div>
+                            <div class="item-price">
+                                <span>$ 1,200</span>
+                            </div>
+                        </div>
+                        <div class="ratings-section">
+                            <div class="ratings">
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-half"></i>
+                            </div>
+                            <div class="ratings-count">
+                                (4.8)
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="desc">
+                                <span class="desc-text">Distance<br>
+                                    Information about the store.</span>
+                            </div>
+                            <button class="book-btn">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="section-4-item" data-bs-target="#store-detail-popup" data-bs-toggle="modal">
+                        <a class="bookmark-icon"><i class="bi bi-bookmark"></i></a>
+                        <!-- <a class="bookmarked-icon"><i class="bi bi-bookmark-fill"></i></a> -->
+                        <div class="item-image-section"  >
+                            <img class="item-image" src="\images\sponsored-2.png"  >
+                        </div>
+                        <div class="item-info">
+                            <div class="item-name">
+                                <span>Store Name</span>
+                            </div>
+                            <div class="item-price">
+                                <span>$ 1,200</span>
+                            </div>
+                        </div>
+                        <div class="ratings-section">
+                            <div class="ratings">
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-half"></i>
+                            </div>
+                            <div class="ratings-count">
+                                (4.8)
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="desc">
+                                <span class="desc-text">Distance<br>
+                                    Information about the store.</span>
+                            </div>
+                            <button class="book-btn">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="section-4-item" data-bs-target="#store-detail-popup" data-bs-toggle="modal">
+                        <a class="bookmark-icon"><i class="bi bi-bookmark"></i></a>
+                        <!-- <a class="bookmarked-icon"><i class="bi bi-bookmark-fill"></i></a> -->
+                        <div class="item-image-section">
+                            <img class="item-image" src="\images\sponsored-3.png">
+                        </div>
+                        <div class="item-info">
+                            <div class="item-name">
+                                <span>Store Name</span>
+                            </div>
+                            <div class="item-price">
+                                <span>$ 1,200</span>
+                            </div>
+                        </div>
+                        <div class="ratings-section">
+                            <div class="ratings">
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-half"></i>
+                            </div>
+                            <div class="ratings-count">
+                                (4.8)
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="desc">
+                                <span class="desc-text">Distance<br>
+                                    Information about the store.</span>
+                            </div>
+                            <button class="book-btn">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="section-4-item" data-bs-target="#store-detail-popup" data-bs-toggle="modal">
+                        <a class="bookmark-icon"><i class="bi bi-bookmark"></i></a>
+                        <!-- <a class="bookmarked-icon"><i class="bi bi-bookmark-fill"></i></a> -->
+                        <div class="item-image-section"> 
+                            <img class="item-image" src="\images\sponsored-2.png">
+                        </div>
+                        <div class="item-info">
+                            <div class="item-name">
+                                <span>Store Name</span>
+                            </div>
+                            <div class="item-price">
+                                <span>$ 1,200</span>
+                            </div>
+                        </div>
+                        <div class="ratings-section">
+                            <div class="ratings">
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-half"></i>
+                            </div>
+                            <div class="ratings-count">
+                                (4.8)
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="desc">
+                                <span class="desc-text">Distance<br>
+                                    Information about the store.</span>
+                            </div>
+                            <button class="book-btn">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="section-4-item" data-bs-target="#store-detail-popup" data-bs-toggle="modal">
+                        <a class="bookmark-icon"><i class="bi bi-bookmark"></i></a>
+                        <!-- <a class="bookmarked-icon"><i class="bi bi-bookmark-fill"></i></a> -->
+                        <div class="item-image-section"> 
+                            <img class="item-image" src="\images\sponsored-1.png">
+                        </div>
+                        <div class="item-info">
+                            <div class="item-name">
+                                <span>Store Name</span>
+                            </div>
+                            <div class="item-price">
+                                <span>$ 1,200</span>
+                            </div>
+                        </div>
+                        <div class="ratings-section">
+                            <div class="ratings">
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-half"></i>
+                            </div>
+                            <div class="ratings-count">
+                                (4.8)
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="desc">
+                                <span class="desc-text">Distance<br>
+                                    Information about the store.</span>
+                            </div>
+                            <button class="book-btn">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="section-4-item" data-bs-target="#store-detail-popup" data-bs-toggle="modal">
+                        <a class="bookmark-icon"><i class="bi bi-bookmark"></i></a>
+                        <!-- <a class="bookmarked-icon"><i class="bi bi-bookmark-fill"></i></a> -->
+                        <div class="item-image-section">  
+                            <img class="item-image" src="\images\sponsored-3.png">
+                        </div>
+                        <div class="item-info">
+                            <div class="item-name">
+                                <span>Store Name</span>
+                            </div>
+                            <div class="item-price">
+                                <span>$ 1,200</span>
+                            </div>
+                        </div>
+                        <div class="ratings-section">
+                            <div class="ratings">
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-half"></i>
+                            </div>
+                            <div class="ratings-count">
+                                (4.8)
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="desc">
+                                <span class="desc-text">Distance<br>
+                                    Information about the store.</span>
+                            </div>
+                            <button class="book-btn">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="section-4-item" data-bs-target="#store-detail-popup" data-bs-toggle="modal">
+                        <a class="bookmark-icon"><i class="bi bi-bookmark"></i></a>
+                        <!-- <a class="bookmarked-icon"><i class="bi bi-bookmark-fill"></i></a> -->
+                        <div class="item-image-section"  >
+                            <img class="item-image" src="\images\sponsored-1.png">
+                        </div>
+                        <div class="item-info">
+                            <div class="item-name">
+                                <span>Store Name</span>
+                            </div>
+                            <div class="item-price">
+                                <span>$ 1,200</span>
+                            </div>
+                        </div>
+                        <div class="ratings-section">
+                            <div class="ratings">
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-half"></i>
+                            </div>
+                            <div class="ratings-count">
+                                (4.8)
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="desc">
+                                <span class="desc-text">Distance<br>
+                                    Information about the store.</span>
+                            </div>
+                            <button class="book-btn">Book Now</button>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="store-detail-popup" tabindex="-1" role="dialog"
+                        aria-labelledby="store-detail-popup" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="pop-up-container">
+                                        <div class="pop-up">
+                                            <div class="pop-up-section">
+                                                <div class="image-section">
+                                                    <div class="main-image-section">
+                                                        <img class="main-image" src="\images\sponsored-1.png">
+                                                    </div>
+                                                    <div class="other-images-section">
+                                                        <img class="other-images" src="\images\sponsored-1.png">
+                                                        <img class="other-images" src="\images\sponsored-1.png">
+                                                        <img class="other-images" src="\images\sponsored-1.png">
+                                                        <img class="other-images" src="\images\sponsored-1.png">
+                                                    </div>
+                                                </div>
+                                                <div class="pop-up-details">
+                                                    <div class="pop-up-main">
+                                                        <div class="pop-up-title-section">
+                                                            <p class="pop-up-title">Strore name</p>
+                                                            <div class="ratings">
+                                                                <i class="rating-icon bi bi-star-fill"></i>
+                                                                <i class="rating-icon bi bi-star-fill"></i>
+                                                                <i class="rating-icon bi bi-star-fill"></i>
+                                                                <i class="rating-icon bi bi-star-fill"></i>
+                                                                <i class="rating-icon bi bi-star-half"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="pop-up-mini-description">
+                                                            <p>Distance</p>
+                                                            <p>Information Lorem ipsum dolor sit amet, consectetur
+                                                                adipiscing elit. </p>
+                                                        </div>
+                                                        <div class="pop-up-services-section">
+                                                            <p class="pop-up-services">Services offered</p>
+                                                            <p class="pop-up-list">-Lorem ipsum dolor sit amet,
+                                                                consectetur adipiscing.
+                                                            </p>
+                                                            <p class="pop-up-list">-Lorem ipsum dolor sit amet,
+                                                                consectetur adipiscing.
+                                                            </p>
+                                                            <p class="pop-up-list">-Lorem ipsum dolor sit amet,
+                                                                consectetur adipiscing.
+                                                            </p>
+                                                            <p class="pop-up-list">-Lorem ipsum dolor sit amet,
+                                                                consectetur adipiscing.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="pop-up-distance-details">
+                                                    <div>
+                                                        <p class="pop-up-distance-title">Distance</p>
+                                                        <p class="pop-up-distance-description">Information Lorem ipsum
+                                                            dolor sit amet,
+                                                            consectetur
+                                                            adipiscing elit.</p>
+                                                    </div>
+                                                    <div class="popup-distance-section-2">
+                                                        <p class="popup-distance-section-2-title">$1200</p>
+                                                        <button class="book-btn">Book Now</button>
+                                                    </div>
+
+                                                    <div class="pop-up-actions">
+                                                        <div class="pop-up-action">
+                                                            <i class="pop-up-action-icon bi bi-p-circle"></i>
+                                                            <p class="pop-up-action-text">Parking available</p>
+                                                        </div>
+                                                        <div class="pop-up-action">
+                                                            <i class="pop-up-action-icon bi bi-sign-merge-right"></i>
+                                                            <p class="pop-up-action-text">Directions</p>
+                                                        </div>
+                                                        <div class="pop-up-action">
+                                                            <i class=" pop-up-action-icon bi bi-share-fill""></i>
+                                    <p class=" pop-up-action-text">Share</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pop-up-last-sec">
+                                                <a class="pop-up-last" href="store-view-customer.html">Know More..</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="section-5">
+            <div class="section-5-ds">
+                <div class="section-5-text-section">
+                    <p class="section-5-tagline ">65% delay in repair is due to cost?</p>
+                    <p class="section-5-info">We help you repair technologies at a minimum cost without making a hole in
+                        your pocket. Our satisfied clientale is a perfect example of how seriously we take your problems
+                        and
+                        offer the best possible prices. Believe in us as we have the right resouces, experience and
+                        expertise. </p>
+                </div>
+                <div class="section-5-image-section">
+                    <img class="section-5-image" src="/images/result-page-image1.png">
+                </div>
+            </div>
+        </div>
+        <div class="section-5-mobile">
+            <div class="section-5-ds">
+                <div class="section-5-text-section">
+
+                    <p class="section-5-tagline ">65% delay in repair is due to cost?</p>
+                    <div class="section-5-image-section">
+                        <img class="section-5-image" src="/images/result-page-image1.png">
+                    </div>
+                    <p class="section-5-info">We help you repair technologies at a minimum cost without making a hole in
+                        your pocket. Our satisfied clientale is a perfect example of how seriously we take your problems
+                        and
+                        offer the best possible prices. Believe in us as we have the right resouces, experience and
+                        expertise. </p>
+                </div>
+
+            </div>
+        </div>
+        <div class="section-4">
+            <div class="section-4-main">
+                <p class="section-4-title"></p>
+                <div class="section-4-items">
+                    <div class="section-4-item" data-bs-target="#store-detail-popup" data-bs-toggle="modal">
+                        <a class="bookmark-icon"><i class="bi bi-bookmark"></i></a>
+                        <!-- <a class="bookmarked-icon"><i class="bi bi-bookmark-fill"></i></a> -->
+                        <div class="item-image-section">
+                            <img class="item-image" src="\images\sponsored-4.png">
+                        </div>
+                        <div class="item-info">
+                            <div class="item-name">
+                                <span>Store Name</span>
+                            </div>
+                            <div class="item-price">
+                                <span>$ 1,200</span>
+                            </div>
+                        </div>
+                        <div class="ratings-section">
+                            <div class="ratings">
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-half"></i>
+                            </div>
+                            <div class="ratings-count">
+                                (4.8)
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="desc">
+                                <span class="desc-text">Distance<br>
+                                    Information about the store.</span>
+                            </div>
+                            <button class="book-btn">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="section-4-item" data-bs-target="#store-detail-popup" data-bs-toggle="modal">
+                        <a class="bookmark-icon"><i class="bi bi-bookmark"></i></a>
+                        <!-- <a class="bookmarked-icon"><i class="bi bi-bookmark-fill"></i></a> -->
+                        <div class="item-image-section">
+                            <img class="item-image" src="\images\sponsored-4.png">
+                        </div>
+                        <div class="item-info">
+                            <div class="item-name">
+                                <span>Store Name</span>
+                            </div>
+                            <div class="item-price">
+                                <span>$ 1,200</span>
+                            </div>
+                        </div>
+                        <div class="ratings-section">
+                            <div class="ratings">
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-half"></i>
+                            </div>
+                            <div class="ratings-count">
+                                (4.8)
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="desc">
+                                <span class="desc-text">Distance<br>
+                                    Information about the store.</span>
+                            </div>
+                            <button class="book-btn">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="section-4-item" data-bs-target="#store-detail-popup" data-bs-toggle="modal">
+                        <a class="bookmark-icon"><i class="bi bi-bookmark"></i></a>
+                        <!-- <a class="bookmarked-icon"><i class="bi bi-bookmark-fill"></i></a> -->
+                        <div class="item-image-section">
+                            <img class="item-image" src="\images\sponsored-1.png">
+                        </div>
+                        <div class="item-info">
+                            <div class="item-name">
+                                <span>Store Name</span>
+                            </div>
+                            <div class="item-price">
+                                <span>$ 1,200</span>
+                            </div>
+                        </div>
+                        <div class="ratings-section">
+                            <div class="ratings">
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-half"></i>
+                            </div>
+                            <div class="ratings-count">
+                                (4.8)
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="desc">
+                                <span class="desc-text">Distance<br>
+                                    Information about the store.</span>
+                            </div>
+                            <button class="book-btn">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="section-4-item" data-bs-target="#store-detail-popup" data-bs-toggle="modal">
+                        <a class="bookmark-icon"><i class="bi bi-bookmark"></i></a>
+                        <!-- <a class="bookmarked-icon"><i class="bi bi-bookmark-fill"></i></a> -->
+                        <div class="item-image-section">
+                            <img class="item-image" src="\images\sponsored-2.png">
+                        </div>
+                        <div class="item-info">
+                            <div class="item-name">
+                                <span>Store Name</span>
+                            </div>
+                            <div class="item-price">
+                                <span>$ 1,200</span>
+                            </div>
+                        </div>
+                        <div class="ratings-section">
+                            <div class="ratings">
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-half"></i>
+                            </div>
+                            <div class="ratings-count">
+                                (4.8)
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="desc">
+                                <span class="desc-text">Distance<br>
+                                    Information about the store.</span>
+                            </div>
+                            <button class="book-btn">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="section-4-item" data-bs-target="#store-detail-popup" data-bs-toggle="modal" >
+                        <a class="bookmark-icon"><i class="bi bi-bookmark"></i></a>
+                        <!-- <a class="bookmarked-icon"><i class="bi bi-bookmark-fill"></i></a> -->
+                        <div class="item-image-section">
+                            <img class="item-image" src="\images\sponsored-2.png">
+                        </div>
+                        <div class="item-info">
+                            <div class="item-name">
+                                <span>Store Name</span>
+                            </div>
+                            <div class="item-price">
+                                <span>$ 1,200</span>
+                            </div>
+                        </div>
+                        <div class="ratings-section">
+                            <div class="ratings">
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-half"></i>
+                            </div>
+                            <div class="ratings-count">
+                                (4.8)
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="desc">
+                                <span class="desc-text">Distance<br>
+                                    Information about the store.</span>
+                            </div>
+                            <button class="book-btn">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="section-4-item" data-bs-target="#store-detail-popup" data-bs-toggle="modal">
+                        <a class="bookmark-icon"><i class="bi bi-bookmark"></i></a>
+                        <!-- <a class="bookmarked-icon"><i class="bi bi-bookmark-fill"></i></a> -->
+                        <div class="item-image-section">
+                            <img class="item-image" src="\images\sponsored-2.png">
+                        </div>
+                        <div class="item-info">
+                            <div class="item-name">
+                                <span>Store Name</span>
+                            </div>
+                            <div class="item-price">
+                                <span>$ 1,200</span>
+                            </div>
+                        </div>
+                        <div class="ratings-section">
+                            <div class="ratings">
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-fill"></i>
+                                <i class="rating-icon bi bi-star-half"></i>
+                            </div>
+                            <div class="ratings-count">
+                                (4.8)
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="desc">
+                                <span class="desc-text">Distance<br>
+                                    Information about the store.</span>
+                            </div>
+                            <button class="book-btn">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-section">
+            <div class="footer">
+                <div class="footer-sec-1">
+                    <div class="icon">
+                        <img class="icon-image" src="\images\logo.png">
+                    </div>
+                    <div class="footer-sub-sec">
+                        <div class="footer-sub-sec-1">
+                            <p class="footer-sec-1-tile">COMPANY</p>
+                            <p class="footer-sec-1-link">About Us</p>
+                            <p class="footer-sec-1-link">Blogs</p>
+                            <p class="footer-sec-1-link">Repair Now Pay Later</p>
+                        </div>
+                        <div class="footer-sub-sec-1">
+                            <p class="footer-sec-1-tile">PARTNERS</p>
+                            <p class="footer-sec-1-link">Regular</p>
+                            <p class="footer-sec-1-link">Partner FAQ</p>
+                            <p class="footer-sec-1-link">Registered Partners</p>
+                        </div>
+                        <div class="footer-sub-sec-1">
+                            <p class="footer-sec-1-tile">FOR YOU</p>
+                            <p class="footer-sec-1-link">Privacy</p>
+                            <p class="footer-sec-1-link">FAQ</p>
+                            <p class="footer-sec-1-link">Contact</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-sec-2">
+                    <p class="footer-sec-2-tagline">Subscribe to win<br> weekly rewards</p>
+                    <div>
+                        <input class="email-address-input" placeholder="Email Address">
+                        <button class="sub-btn">SUBSCRIBE</button>
+                    </div>
+                    <div class="icons">
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-youtube"></i>
+                        <i class="bi bi-twitter"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
