@@ -1,5 +1,5 @@
 .price-summary-card {
-    width: 400px;
+    width: 70%;
     padding: 20px 20px 0 20px;
     border: 1px solid rgb(192, 192, 192);
     font-family: 'roboto';
@@ -16,7 +16,7 @@
 
 .order-details-card {
     padding: 20px;
-    width: 400px;
+    width: 70%;
     margin-top: 20px;
     font-size: 14px;
     border: 1px solid rgb(192, 192, 192);
@@ -91,9 +91,7 @@
     width: 85%;
     margin: 0 auto;
     display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: space-between;
-    gap: 20px;
+    gap: 40px;
     margin-top: 20px;
 }
 
@@ -370,7 +368,7 @@
 
     .price-summary-card,
     .order-details-card {
-        width: 350px;
+        width: 90%;
     }
     .step:not(:last-child)::after {
         top: -95%;
@@ -402,6 +400,14 @@
         width: 100px;
         font-weight: 500;
         border-radius: 15px;
+    }
+    .order-sec-2{
+        width: 100%;
+    }
+    .price-summary-card,
+    .order-details-card {
+        width: 99%;
+        margin: 10px 0;
     }
     .step:not(:last-child)::after {
         top: -55%;
