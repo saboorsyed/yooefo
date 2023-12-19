@@ -60,7 +60,7 @@
     font-size: 12px;
 
     &:focus {
-        border: 2px solid #005cba;
+        border: 2px solid #f37021;
     }
 }
 
@@ -89,7 +89,7 @@
     font-size: 14px;
 
     &:focus {
-        border: 2px solid #005cba;
+        border: 2px solid #f37021;
     }
 }
 
@@ -103,7 +103,7 @@
 
 .footer-btn {
     margin: 0 auto;
-    background-color: #005cba;
+    background-color: #f37021;
     color: white;
     border-radius: 15px;
     width: 30%;

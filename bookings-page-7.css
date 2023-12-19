@@ -84,6 +84,7 @@
 }
 
 .order-summary-page {
+    margin: 20px 0;
     width: 100%
 }
 
@@ -116,7 +117,7 @@
 }
 
 .service-no {
-    color: #005cba;
+    color: #ff924f;
     font-weight: 500;
     margin-left: 10px;
 }
@@ -181,7 +182,8 @@
 }
 
 .r-cost {
-    color: #005cba;
+    color: #f37021;
+    margin-left: 5px;
 }
 
 .store-address-sec {
@@ -245,7 +247,7 @@
 }
 
 .status {
-    color: #005cba;
+    color: #f37021;
     font-weight: 500;
 }
 
@@ -270,7 +272,7 @@
     flex: 1;
     text-align: center;
     position: relative;
-    color: #005cba;
+    color: #5b3721;
     font-weight: 500;
 }
 
@@ -295,7 +297,7 @@
 }
 
 .step.completed::before {
-    background-color: #005cba;
+    background-color: #f37021;
     color: white;
 }
 
@@ -346,8 +348,8 @@
 .recieve-cancel,
 .recieve-reschedule {
     background-color: transparent;
-    border: 2px solid #005cba;
-    color: #005cba;
+    border: 2px solid #f37021;
+    color: #f37021;
     height: 40px;
     width: 80px;
     font-weight: 500;
@@ -356,7 +358,7 @@
 
 .recieve-reschedule {
     width: 120px;
-    background-color: #005cba;
+    background-color: #f37021;
     color: white;
     margin-left: 10px;
 }

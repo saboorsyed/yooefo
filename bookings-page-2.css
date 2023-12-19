@@ -1,9 +1,10 @@
 .add-address-page{
     width: 100%;
+   
 }
 .add-address-page{
     width: 85%;
-    margin: 0 auto;
+    margin: 25px auto;
 }
 .address-sec-title{
     margin: 0 auto;
@@ -63,8 +64,8 @@
     width: 70px;
     height: 30px;
     &:focus{
-        background-color: #9cd1e96c;
-        color: #005cba;
+        background-color: #f3722116;
+        color: #f37021;
     }
 }
 .section-footer{
@@ -76,7 +77,7 @@
 }
 .footer-btn{
     margin: 0 auto;
-    background-color: #005cba;
+    background-color: #f37021;
     color: white;
     border-radius: 15px;
     width: 80%;

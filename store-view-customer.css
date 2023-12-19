@@ -129,8 +129,8 @@
     margin-top: 20px;
     margin-bottom: 40px;
     outline: none;
-    border-color: #005cba;
-    background-color: #005cba;
+    border-color: #f37021;
+    background-color: #f37021;
     color: white;
     font-weight: 500;
     font-size: 18px;
@@ -144,7 +144,7 @@
 .offer-section {
     width: 100%;
     display: flex;
-    border: 2px solid #005dba6d;
+    border: 2px solid #f3722180;
     padding: 10px 0;
     border-radius: 14px;
 }
@@ -212,7 +212,7 @@
     margin-top: 40px;
     display: flex;
     justify-content: space-around;
-    color: #005cba;
+    color: #f37021;
 }
 
 .book-icon {

@@ -24,7 +24,7 @@
 .nav {
     font-family: 'poppins';
     display: flex;
-    gap: 20%;
+    gap: 10%;
     align-items: center;
     flex-wrap: nowrap;
     width: 85%;
@@ -33,13 +33,13 @@
 }
 
 .icon {
-    width: 66px;
-    height: 45px;
+    width: 200px;
+    height: 36px;
 }
 
 .icon-image {
-    width: 66px;
-    height: 45px;
+    width: 190px;
+    height: 50px;
 }
 
 .nav-main {
@@ -101,7 +101,7 @@
 .action-buttons {
     display: flex;
     gap: 15px;
-    color: #005cba;
+    color: #f37021;
     font-size: 12px;
     font-weight: 500;
     /* width: 350px; */
@@ -198,19 +198,23 @@
 .filter-btn,
 .sort-btn,
 .selected-filter-btn {
-    background-color: #005cba;
+    background-color: #f37021;
     color: white;
-    border: #005cba;
+    border: none;
+    border:1px solid #f37021;
     border-radius: 16px;
     padding: 10px 20px;
     font-size: 13px;
     font-weight: 600;
+    outline: none;
 }
 
 .selected-filter-btn {
-    background-color: #9cd1e95b;
-    stroke: #005cba;
-    color: #005cba;
+    background-color: #f3722136;
+    stroke: #f37021;
+    color: #f37021;
+    border:none;
+    
 }
 
 .section-4 {
@@ -288,7 +292,7 @@
 }
 
 .rating-icon {
-    color: #005cba;
+    color: #f37021;
 }
 
 .ratings-count {
@@ -315,8 +319,8 @@
 .book-btn {
     height: 35px;
     padding: 0 10px;
-    border: 1px solid #005CBA;
-    color: #005CBA;
+    border: 1px solid #f37021;
+    color: #f37021;
     font-weight: 600;
     background-color: transparent;
     border-radius: 15px;
@@ -325,7 +329,7 @@
 
 .section-5 {
     width: 100%;
-    background-color: #005CBA;
+    background-color: #baa702;
     padding: 40px 0;
 }
 
@@ -368,8 +372,8 @@
 
 .footer-section {
     width: 100%;
-    border-top: 4px solid #005cba;
-    border-bottom: 4px solid #005cba;
+    border-top: 4px solid #f37021;
+    border-bottom: 4px solid #f37021;
     background-color: #F1F1F1;
     padding: 60px 0;
 }
@@ -414,7 +418,7 @@
 .email-address-input {
     border: none;
     outline: none;
-    border-bottom: 2px solid #005CBA;
+    border-bottom: 2px solid #f37021;
     background-color: transparent;
     color: black;
 }
@@ -422,8 +426,8 @@
 .sub-btn {
     border-radius: 7px;
     font-size: 11px;
-    border: 1px solid #005CBA;
-    background-color: #005CBA;
+    border: 1px solid #f37021;
+    background-color: #f37021;
     color: #ffffff;
     height: 30px;
     padding: 0 15px;
@@ -435,7 +439,7 @@
     font-size: 20px;
     display: flex;
     gap: 40px;
-    color: #005CBA;
+    color: #f37021;
 }
 
 .pop-up {
@@ -519,14 +523,14 @@
 }
 
 .pop-up-mini-description {
-    font-family: 'raleway';
+    font-family: 'lato';
     font-weight: 500;
     color: #6f6f6f;
     width: 90%;
 }
 
 .pop-up-services-section {
-    font-family: 'raleway';
+    font-family: 'lato';
     font-weight: 500;
     color: #6f6f6f;
     width: 90%;
@@ -534,15 +538,16 @@
 }
 
 .pop-up-services {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .pop-up-list {
     margin-bottom: 0;
+    font-size: 14px;
 }
 
 .pop-up-distance-details {
-    background-color: #ECF6FB;
+    background-color: #F3702114;
     padding: 20px;
     width: 30%;
     height: fit-content;
@@ -550,9 +555,9 @@
 }
 
 .pop-up-distance-title {
-    font-family: 'raleway';
+    font-family: 'lato';
     font-weight: 600;
-    color: #005CBA;
+    color: #f37021;
     margin-bottom: 30px;
 }
 
@@ -592,16 +597,57 @@
 
 .pop-up-action-icon {
     font-size: 26px;
-    color: #005CBA;
+    color: #f37021;
 }
 
 .pop-up-last-sec {
     width: 100%;
-    margin: 0 auto;
+    margin: 10px auto;
     text-align: right;
-    font-weight: 600;
-    color: #005CBA;
+    font-weight: 400;
+    /* color: #005CBA; */
     cursor: pointer;
+}
+.pop-up-last{
+    margin: 10px 10px 0 0;
+    color: #f37021;
+}
+.device-selection{
+    height: 60vh;
+    width: 85%;
+    margin: 40px auto;
+    padding: 10px 0;
+}
+.ds-title{
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+.ds-top-sec{
+    margin-top: 20px;
+}
+.ds-device-sec{
+    flex-wrap: wrap;
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+}
+.ds-nxt-btn{
+    margin-top: 40px;
+    background-color: #f37021;
+    height: 40px;
+    width: 150px;
+    outline: none;
+    border: none;
+    border-radius: 11px;
+    color: white;
+}
+select{
+    height: 40px;
+    width: 220px;
+    padding: 2px;
+    outline:none;
+    border-radius: 4px;
+    border: 1px solid rgb(192, 192, 192);
 }
 /* width */
 ::-webkit-scrollbar {
@@ -759,13 +805,13 @@
     }
 
     .side-menu-button {
-        color: #005CBA;
+        color: #f37021;
         font-size: 25px;
     }
 
     .search-button-mobile {
         font-size: 18px;
-        color: #005CBA;
+        color: #f37021;
     }
 
     .image-section {

@@ -36,8 +36,8 @@
 }
 .add-adderss-btn{
     background-color: transparent;
-    border: 2px solid #005cba;
-    color: #005cba;
+    border: 2px solid #f37021;
+    color: #f37021;
     height: 40px;
     padding: 0 15px;
     border-radius: 15px;
@@ -58,7 +58,7 @@
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 .address-label{
-    background-color: #9cd1e948;
+    background-color: #F3702114;
     height: 30px;
     position: absolute;
     right: 10px;
@@ -66,7 +66,7 @@
     justify-content: center;
     align-items: center;
     width: 60px;
-    color: #005cba;
+    color: #f37021;
     font-weight: 500;
     font-size: 13px;
     border-radius: 10px;
@@ -91,12 +91,13 @@
 }
 .price-summary-card-header,
 .order-detail-card-header {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
     border-bottom: 1px solid rgb(201, 201, 201);
 }
 
 .items-price {
+    padding-top: 15px;
     height: 250px;
     overflow-y: auto;
 }
@@ -105,7 +106,8 @@
 .care-sec {
     display: flex;
     width: 100%;
-    padding: 10px;
+    padding: 10px 0;
+    font-size: 14px;
 }
 
 .item-name,
@@ -113,7 +115,9 @@
     width: 50%;
     font-weight: 500;
 }
-
+.care-name{
+    color: #616161;
+}
 .item-price {
     width: 50%;
     text-align: right;
@@ -138,7 +142,7 @@
 
 .price-cont-btn {
     width: 100%;
-    background-color: #005cba;
+    background-color: #f37021;
     outline: none;
     border: none;
     color: white;
@@ -165,10 +169,11 @@
 .offer {
     display: flex;
     gap: 5px;
+    font-size: 14px;
 }
 
 .order-detail-body {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .order-breif {
@@ -179,10 +184,12 @@
 
 .left-detail {
     width: 50%;
+    font-size: 14px;
 }
 
 .right-detail {
     width: 50%;
+    font-size: 14px;
 }
 
 .date-breif {

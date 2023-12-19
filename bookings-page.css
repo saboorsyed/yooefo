@@ -106,9 +106,9 @@
 }
 
 .service-add-btn {
-    border: 2px solid #026dd9;
+    border: 2px solid #f37021;
     background-color: transparent;
-    color: #005cba;
+    color: #f37021;
     height: 35px;
     border-radius: 10px;
     width: 85px;
@@ -117,19 +117,19 @@
 
 .sec-end {
     padding: 10px;
-    background-color: #a6cee56d;
+    background-color: #f3722112;
     margin: 40px 0 0 0;
 }
 
 .sec-end-text {
-    color: #005cba;
+    color: #f37021;
     margin-bottom: 0;
     font-weight: 500;
 }
 
 .price-summary-card-header,
 .order-detail-card-header {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
     border-bottom: 1px solid rgb(201, 201, 201);
 }
@@ -137,19 +137,25 @@
 .items-price {
     height: 250px;
     overflow-y: auto;
+    padding-top: 10px;
 }
 
 .item-price-sec,
 .care-sec {
     display: flex;
     width: 100%;
-    padding: 10px;
+    padding: 10px 0;
+    font-size: 14px;
 }
 
 .item-name,
 .care-name {
     width: 50%;
     font-weight: 500;
+    color: #464646;
+}
+.care-name{
+    color: rgb(97, 97, 97);
 }
 
 .item-price {
@@ -176,7 +182,7 @@
 
 .price-cont-btn {
     width: 100%;
-    background-color: #005cba;
+    background-color: #f37021;
     outline: none;
     border: none;
     color: white;
@@ -203,10 +209,11 @@
 .offer {
     display: flex;
     gap: 5px;
+    font-size: 14px;
 }
 
 .order-detail-body {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .order-breif {
@@ -217,10 +224,12 @@
 
 .left-detail {
     width: 50%;
+    font-size: 14px
 }
 
 .right-detail {
     width: 50%;
+    font-size: 14px;
 }
 
 .date-breif {
