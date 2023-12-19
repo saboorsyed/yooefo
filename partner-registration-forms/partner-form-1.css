@@ -1,0 +1,150 @@
+*{
+   font-family: 'poppins'; 
+}
+.p-sec-header{
+    padding: 10px;
+    text-align: center;
+    font-style: 22px;
+    font-weight: 500;
+    background-color: #f37221de;
+}
+.p-sec-title{
+    margin: auto;
+    color: white;
+}
+.p-sec-body{
+    width: 100%;
+    display: flex;
+}
+.p-form-sec{
+    width: 60%;
+    padding-top: 35px;
+    text-align: center;
+}
+.p-form-sec-header{
+    font-size: 22px;
+    color: #f37021;
+    font-weight: 500;
+}
+.p-form-sec-head-text{
+    width:40%;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 12px;
+    color: #838383;
+    margin: 0 auto;
+}
+.p-form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 40%;
+    text-align:left;
+    margin: 30px auto;
+}
+.p-field{
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    color: #616161;
+    margin-bottom: 3px;
+    /* justify-content: center;  */
+}
+.p-input-form{
+    width:100%;
+}
+.p-input-form{
+    border: 1px solid #c4c4c4;
+    background-color: #f1f1f160;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+.p-field-num{
+    display: flex;
+    justify-content: space-between;
+}
+.ph-code{
+    width: 15%;
+}
+.ph-num{
+    width: 80%;
+}
+.p-form-footer{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.p-form-status-sec{
+    display: flex;
+    width:40%;
+    background-color: #F3702114;
+}
+.p-form-status-sec-main{
+   /* height: 90vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.pro-tip-sec{
+    border: 2px solid #f37021;
+    width: 70%;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #f3722112;
+
+}
+.pro-tip-sec-header{
+    color: #f37021;
+    font-weight: 500;
+    font-size: 16px;
+}
+.pro-tip-sec-body{
+    width: 85%;
+    color: #505050;
+    font-size: 14px ;
+    margin: 0 auto;
+}
+.p-form-status{
+    width: 70%;
+    margin: 30px 0;
+}
+.p-form-status-title{
+    margin-bottom: 2px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.progress{
+    background-color: #d1d1d1;
+}
+.progress-bar{
+    background-color: #f37021;
+}
+@media screen and (max-width:1100px){
+    .p-form{
+        width: 70%;
+    }
+    .p-form-sec-head-text{
+        width:70%;
+        }
+}
+@media screen and (max-width:800px){
+    .p-sec-body{
+        flex-wrap: wrap;
+    }
+    .p-form-sec{
+        width: 100%;
+    }
+    .p-form-status-sec{
+        width: 100%;
+    }
+    .pro-tip-sec{
+        display: none;
+    }
+    .p-form-status-sec-main{
+        width: 90%;
+    }
+}
