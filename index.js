@@ -20,7 +20,7 @@ function pageOpen() {
     window.location = 'bookings-page.html';
 }
 function addressPage(){
-    window.location = 'address-page.html'
+    window.location = 'bookings-page-7.html'
 }
 function statusPage(){
     window.location = 'bookings-page-7.html'
@@ -29,7 +29,7 @@ function addAddress(){
     window.location = 'bookings-page-2.html'
 }
 function addAddress2(){
-    window.location = 'bookings-page-4.html'
+    window.location = 'bookings-page.html'
 }
 function paymentPage(){
     window.location = 'bookings-page-5.html'

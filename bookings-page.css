@@ -12,20 +12,201 @@
 .booking-section-2 {
     width: 30%;
 }
-
+.appointment-schedule{
+    border: 1px solid rgb(192, 192, 192);
+    font-family: 'roboto';
+    border-radius: 4px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    margin: 25px 0;
+}
+.address-section{
+    margin: 25px 0;
+    max-height: 70vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
 .service-selection-card,
 .price-summary-card,
 .offers-card,
 .order-details-card,
 .company-details-section-card,
-.FAQ-section-card {
+.FAQ-section-card,.address-section {
     padding: 20px;
     border: 1px solid rgb(192, 192, 192);
     font-family: 'roboto';
     border-radius: 4px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
+.address-sec-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.at-1{
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.at-2{
+    font-size: 13px;
+}
+.add-adderss-btn{
+    background-color: transparent;
+    border: 2px solid #f37021;
+    color: #f37021;
+    height: 40px;
+    padding: 0 15px;
+    border-radius: 15px;
+    font-weight:500;
+}
+.address-section{
+    margin-bottom: 30px;
 
+}
+
+.pay-sec-1 {
+    width: 100%;
+}
+
+
+
+.payment-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 15px;
+    font-weight: 500;
+    height: 55px;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.pay-later-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    width: fit-content;
+    background-color: #F3702114;
+    padding-top: 90px;
+    width: 100%;
+    border-radius: 14px ;
+}
+
+.connector {
+    display: flex;
+    align-items: center;
+}
+.emi-text{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+    margin: 0;
+    outline: none;
+    border: none;
+    position: relative;
+    &:focus{
+        background-color: black;
+        width: 15px;
+        height: 15px;
+    }
+}
+.emi-sec{
+    position: absolute;
+    bottom: 30px;
+    left: -7px;
+    font-size: 13px;
+}
+.line {
+    height: 2px;
+    width: 5vw;
+    background-color: #c4c4c4;
+}
+.amount{
+    font-weight: 500;
+}
+.card-form{
+    width: 100%;
+}
+.num-sec{
+    width: 100%;
+}
+.exp-sec{
+    display: flex;
+    justify-content: space-between;
+}
+.exp-date,.cvv{
+    width: 48%;
+}
+.name-card{
+    width: 100%;
+}
+.card-num{
+    width: 100%;
+}
+.form-pay{
+    background-color: #c4c4c450;
+    border: 1px solid #c4c4c4;
+    height: 45px;
+    padding: 10px 25px;
+    margin: 10px 0;
+    border-radius: 12px;
+    outline: none;
+    &:placeholder-shown{
+        color: #9a9a9a;
+        font-size: 13px;
+    }
+}
+
+.address{
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    position: relative;
+    padding: 20px;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 15px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.address-label{
+    background-color: #F3702114;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    color: #f37021;
+    font-weight: 500;
+    font-size: 13px;
+    border-radius: 10px;
+}
+.buyer-name{
+    margin-bottom: 0;
+    font-weight: 500;
+    width: 90%;
+
+}
+.buyer-address{
+    font-size: 13px;
+    color: #616161ad;
+    margin-bottom: 0;
+    width: 90%;
+}
+.address-action-btn{
+    font-size: 14px;
+    color: #EB6168;
+    margin-right: 10px;
+    margin-top: 0;
+}
 .sec-head {
     display: flex;
     gap: 20px;

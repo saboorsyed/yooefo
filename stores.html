@@ -20,7 +20,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
     <script src="index.js" defer></script>
 </head>
 
@@ -120,8 +120,11 @@
                     <button class="filter-btn">FILTER</button>
                     <button class="selected-filter-btn">Apple <i class="bi bi-x-lg"></i></button>
                 </div>
-                <button class="sort-btn">SORT BY <i class="bi bi-chevron-down"></i></button>
+                <button class="sort-btn" data-toggle="modal" data-target="#sort-section">SORT BY <i
+                        class="bi bi-chevron-down"></i></button>
             </div>
+           
+
         </div>
 
         <div class="section-4">
@@ -131,7 +134,7 @@
                     <div class="section-4-item" data-bs-target="#store-detail-popup" data-bs-toggle="modal">
                         <a class="bookmark-icon"><i class="bi bi-bookmark"></i></a>
                         <!-- <a class="bookmarked-icon"><i class="bi bi-bookmark-fill"></i></a> -->
-                        <div class="item-image-section"  >
+                        <div class="item-image-section">
                             <img class="item-image" src="\images\sponsored-4.png">
                         </div>
                         <div class="item-info">
@@ -165,7 +168,7 @@
                     <div class="section-4-item" data-bs-target="#store-detail-popup" data-bs-toggle="modal">
                         <a class="bookmark-icon"><i class="bi bi-bookmark"></i></a>
                         <!-- <a class="bookmarked-icon"><i class="bi bi-bookmark-fill"></i></a> -->
-                        <div class="item-image-section"  >
+                        <div class="item-image-section">
                             <img class="item-image" src="\images\sponsored-4.png">
                         </div>
                         <div class="item-info">
@@ -199,7 +202,7 @@
                     <div class="section-4-item" data-bs-target="#store-detail-popup" data-bs-toggle="modal">
                         <a class="bookmark-icon"><i class="bi bi-bookmark"></i></a>
                         <!-- <a class="bookmarked-icon"><i class="bi bi-bookmark-fill"></i></a> -->
-                        <div class="item-image-section"  >
+                        <div class="item-image-section">
                             <img class="item-image" src="\images\sponsored-1.png">
                         </div>
                         <div class="item-info">
@@ -233,8 +236,8 @@
                     <div class="section-4-item" data-bs-target="#store-detail-popup" data-bs-toggle="modal">
                         <a class="bookmark-icon"><i class="bi bi-bookmark"></i></a>
                         <!-- <a class="bookmarked-icon"><i class="bi bi-bookmark-fill"></i></a> -->
-                        <div class="item-image-section"  >
-                            <img class="item-image" src="\images\sponsored-2.png"  >
+                        <div class="item-image-section">
+                            <img class="item-image" src="\images\sponsored-2.png">
                         </div>
                         <div class="item-info">
                             <div class="item-name">
@@ -301,7 +304,7 @@
                     <div class="section-4-item" data-bs-target="#store-detail-popup" data-bs-toggle="modal">
                         <a class="bookmark-icon"><i class="bi bi-bookmark"></i></a>
                         <!-- <a class="bookmarked-icon"><i class="bi bi-bookmark-fill"></i></a> -->
-                        <div class="item-image-section"> 
+                        <div class="item-image-section">
                             <img class="item-image" src="\images\sponsored-2.png">
                         </div>
                         <div class="item-info">
@@ -335,7 +338,7 @@
                     <div class="section-4-item" data-bs-target="#store-detail-popup" data-bs-toggle="modal">
                         <a class="bookmark-icon"><i class="bi bi-bookmark"></i></a>
                         <!-- <a class="bookmarked-icon"><i class="bi bi-bookmark-fill"></i></a> -->
-                        <div class="item-image-section"> 
+                        <div class="item-image-section">
                             <img class="item-image" src="\images\sponsored-1.png">
                         </div>
                         <div class="item-info">
@@ -369,7 +372,7 @@
                     <div class="section-4-item" data-bs-target="#store-detail-popup" data-bs-toggle="modal">
                         <a class="bookmark-icon"><i class="bi bi-bookmark"></i></a>
                         <!-- <a class="bookmarked-icon"><i class="bi bi-bookmark-fill"></i></a> -->
-                        <div class="item-image-section">  
+                        <div class="item-image-section">
                             <img class="item-image" src="\images\sponsored-3.png">
                         </div>
                         <div class="item-info">
@@ -403,7 +406,7 @@
                     <div class="section-4-item" data-bs-target="#store-detail-popup" data-bs-toggle="modal">
                         <a class="bookmark-icon"><i class="bi bi-bookmark"></i></a>
                         <!-- <a class="bookmarked-icon"><i class="bi bi-bookmark-fill"></i></a> -->
-                        <div class="item-image-section"  >
+                        <div class="item-image-section">
                             <img class="item-image" src="\images\sponsored-1.png">
                         </div>
                         <div class="item-info">
@@ -708,7 +711,7 @@
                             <button class="book-btn">Book Now</button>
                         </div>
                     </div>
-                    <div class="section-4-item" data-bs-target="#store-detail-popup" data-bs-toggle="modal" >
+                    <div class="section-4-item" data-bs-target="#store-detail-popup" data-bs-toggle="modal">
                         <a class="bookmark-icon"><i class="bi bi-bookmark"></i></a>
                         <!-- <a class="bookmarked-icon"><i class="bi bi-bookmark-fill"></i></a> -->
                         <div class="item-image-section">
