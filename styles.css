@@ -255,7 +255,7 @@
 }
 
 .item-image-section {
-    width: 100%
+    width: 100%;
 }
 
 .item-image {
@@ -651,7 +651,7 @@ select{
 }
 /* width */
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 7px;
   }
   
   /* Track */
@@ -661,12 +661,13 @@ select{
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #d3d3d370; 
+    background: #f3722188; 
+    
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #d7d7d794; 
+    background: #f37221c7; 
   }
 @media screen and (max-width:1060px) {
     .nav {
