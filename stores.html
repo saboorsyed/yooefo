@@ -22,6 +22,8 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="stores.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stores.css">
     <script src="index.js" defer></script>
 </head>
 
@@ -59,59 +61,82 @@
         <div class="section-2">
             <div class="carousel-section">
                 <p class="section2-heading">Sponsored Partners</p>
+                <div class="carousel-field">
+                    <button onclick="scrollLeftt()" class="carousel-next-button"><i
+                        class="bi bi-chevron-left"></i></button>
+                    <div class="carousel-items" id="carousel-items">
+                        <div class="carousel-itemm">
+                            <div class="carousel-item-image">
+                                <img class="carousel-item-img" src="images\sponsored-1.png">
+                            </div>
+                            <div class="carousel-item-text">
+                                <p>Brand 1</p>
+                            </div>
+                        </div>
+                        <div class="carousel-itemm">
+                            <div class="carousel-item-image">
+                                <img class="carousel-item-img"
+                                    src="https://pixlr.com/images/index/ai-image-generator-three.webp">
+                            </div>
+                            <div class="carousel-item-text">
+                                <p>Brand 2</p>
+                            </div>
+                        </div>
+                        <div class="carousel-itemm">
+                            <div class="carousel-item-image">
+                                <img class="carousel-item-img" src="images\sponsored-3.png">
+                            </div>
+                            <div class="carousel-item-text">
+                                <p>Brand 3</p>
+                            </div>
+                        </div>
+                        <div class="carousel-itemm">
+                            <div class="carousel-item-image">
+                                <img class="carousel-item-img" src="images\sponsored-4.png">
+                            </div>
+                            <div class="carousel-item-text">
+                                <p>Brand 4</p>
+                            </div>
+                        </div>
+                        <div class="carousel-itemm">
+                            <div class="carousel-item-image">
+                                <img class="carousel-item-img" src="images\sponsored-1.png">
+                            </div>
+                            <div class="carousel-item-text">
+                                <p>Brand 5</p>
+                            </div>
+                        </div>
+                        <div class="carousel-itemm">
+                            <div class="carousel-item-image">
+                                <img class="carousel-item-img" src="images\sponsored-1.png">
+                            </div>
+                            <div class="carousel-item-text">
+                                <p>brand 5</p>
+                            </div>
+                        </div>
+                        <div class="carousel-itemm">
+                            <div class="carousel-item-image">
+                                <img class="carousel-item-img" src="images\sponsored-1.png">
+                            </div>
+                            <div class="carousel-item-text">
+                                <p>brand 5</p>
+                            </div>
+                        </div>
+                        <div class="carousel-itemm">
+                            <div class="carousel-item-image">
+                                <img class="carousel-item-img" src="images\sponsored-1.png">
+                            </div>
+                            <div class="carousel-item-text">
+                                <p>brand 5</p>
+                            </div>
+                        </div>
 
-                <div class="carousel-items">
-                    <div class="carousel-itemm">
-                        <div class="carousel-item-image">
-                            <img class="carousel-item-img" src="images\sponsored-1.png">
-                        </div>
-                        <div class="carousel-item-text">
-                            <p>Brand 1</p>
-                        </div>
                     </div>
-                    <div class="carousel-itemm">
-                        <div class="carousel-item-image">
-                            <img class="carousel-item-img" src="images\sponsored-2.png">
-                        </div>
-                        <div class="carousel-item-text">
-                            <p>Brand 2</p>
-                        </div>
-                    </div>
-                    <div class="carousel-itemm">
-                        <div class="carousel-item-image">
-                            <img class="carousel-item-img" src="images\sponsored-3.png">
-                        </div>
-                        <div class="carousel-item-text">
-                            <p>Brand 3</p>
-                        </div>
-                    </div>
-                    <div class="carousel-itemm">
-                        <div class="carousel-item-image">
-                            <img class="carousel-item-img" src="images\sponsored-4.png">
-                        </div>
-                        <div class="carousel-item-text">
-                            <p>Brand 4</p>
-                        </div>
-                    </div>
-                    <div class="carousel-itemm">
-                        <div class="carousel-item-image">
-                            <img class="carousel-item-img" src="images\sponsored-1.png">
-                        </div>
-                        <div class="carousel-item-text">
-                            <p>Brand 5</p>
-                        </div>
-                    </div>
-                    <div class="carousel-itemm">
-                        <div class="carousel-item-image">
-                            <img class="carousel-item-img" src="images\sponsored-1.png">
-                        </div>
-                        <div class="carousel-item-text">
-                            <p>brand 5</p>
-                        </div>
-                    </div>
+                    <button onclick="scrollRight()" class="carousel-next-button"><i
+                            class="bi bi-chevron-right"></i></button>
 
-                    <button class="carousel-next-button"><i class="bi bi-chevron-right"></i></button>
                 </div>
+
             </div>
         </div>
 
@@ -124,7 +149,7 @@
                 <button class="sort-btn" data-toggle="modal" data-target="#sort-section">SORT BY <i
                         class="bi bi-chevron-down"></i></button>
             </div>
-           
+
 
         </div>
 
@@ -136,7 +161,7 @@
                         <a class="bookmark-icon"><i class="bi bi-bookmark"></i></a>
                         <!-- <a class="bookmarked-icon"><i class="bi bi-bookmark-fill"></i></a> -->
                         <div class="item-image-section">
-                            <img class="item-image" src="images\sponsored-4.png">
+                            <img class="item-image" src="\images\sponsored-4.png">
                         </div>
                         <div class="item-info">
                             <div class="item-name">
@@ -561,7 +586,7 @@
 
                     <p class="section-5-tagline ">65% delay in repair is due to cost?</p>
                     <div class="section-5-image-section">
-                        <img class="section-5-image" src="images/result-page-image1.png">
+                        <img class="section-5-image" src="/images/result-page-image1.png">
                     </div>
                     <p class="section-5-info">We help you repair technologies at a minimum cost without making a hole in
                         your pocket. Our satisfied clientale is a perfect example of how seriously we take your problems

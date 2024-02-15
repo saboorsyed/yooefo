@@ -1,7 +1,7 @@
 .main-section{
   width: 95%;
   min-height: 70vh;
-  margin: 25px auto;
+  margin: 45px auto;
   text-align: center;
   /* font-family:'roboto'; */
 }
@@ -11,7 +11,7 @@
   margin-bottom: 2px;
 }
 .ft-2{
-  font-size: 18px;
+  font-size: 16px;
   margin: 12px 0;
   color: rgb(59, 59, 59);
 }
@@ -19,7 +19,7 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  width: 60%;
+  width: 70%;
   margin: 30px auto;
 }
 .selection-card{
@@ -65,6 +65,27 @@
   overflow-y: auto;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   cursor: pointer;
+}
+.selction-search-section{
+  width: fit-content;
+  margin: 15px auto;
+  position: relative!important;
+}
+.selection-search-icon{
+  position: absolute;
+  right: 20px;
+  top: 5px;
+}
+.selection-search-field{
+  width:280px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 7px;
+  outline: none;
+  border: 1px solid rgb(201, 201, 201);
+  &:focus{
+    border: 1px solid #f37021;
+  }
 }
 .ss-2{
   font-size: 21px;
@@ -217,5 +238,13 @@
   }
   .lower-text{
     width: 120px !important;;
+  }
+}
+@media screen and (max-width:780px){
+  .selection-section{
+    width: 90%;
+  }
+  .selection-card{
+    width: 120px;
   }
 }

@@ -64,4 +64,20 @@ function selectService(event){
 var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
 var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
   return new bootstrap.Popover(popoverTriggerEl);
-})
+});
+//stores.html carousal
+function scrollLeftt() {
+    let container = document.getElementById('carousel-items');
+    container.scrollBy({
+      left: -240, // Adjust the value as needed
+      behavior: 'smooth'
+    });
+  }
+
+ function scrollRight() {
+    let container = document.getElementById('carousel-items');
+    container.scrollBy({
+      left: 240, // Adjust the value as needed
+      behavior: 'smooth'
+    });
+  }
