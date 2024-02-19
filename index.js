@@ -61,7 +61,7 @@ function selectService(event){
     let unselctedElement = document.getElementByClassName('model-option');
     unselctedElement.classList.add("selected-service");
 }
-var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="popover"]'));
 var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
   return new bootstrap.Popover(popoverTriggerEl);
 });
